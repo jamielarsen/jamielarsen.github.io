@@ -109,7 +109,6 @@ a:hover, a:active {
 .site-title a {
     color: #2f2f2f;
     text-decoration: none;
-    text-align: center;
 }
 
 .site-description {
@@ -117,7 +116,6 @@ a:hover, a:active {
     letter-spacing: 0.26rem;
     color: #9d9d9d;
     text-transform: uppercase;
-    text-align: center;
 }
 
 @media screen and (min-width: 576px){
