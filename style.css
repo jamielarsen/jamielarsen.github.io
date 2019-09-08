@@ -104,11 +104,11 @@ a:hover, a:active {
 .site-title {
     font-size: 72px;
     font-family: 'arcadeclassicregular';
+    text-align: center;
 }
 
 .site-title a {
     color: #2f2f2f;
-    text-decoration: none;
 }
 
 .site-description {
