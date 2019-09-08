@@ -97,9 +97,6 @@ a:hover, a:active {
 /*
 # Site Branding
 --------------------------------*/
-.site-branding {
-    padding: 40px 0;
-}
 
 .site-title {
     font-size: 72px;
@@ -124,9 +121,6 @@ a:hover, a:active {
         font-size: 112px;
     }
 
-.site-description {
-        width: 284px;
-}
 }
 
 
