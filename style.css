@@ -120,7 +120,7 @@ a:hover, a:active {
     letter-spacing: 0.26rem;
     color: #9d9d9d;
     text-transform: uppercase;
-    text-align: right;
+    text-align: center;
 }
 
 @media screen and (min-width: 576px){
