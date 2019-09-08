@@ -99,6 +99,7 @@ a:hover, a:active {
 --------------------------------*/
 .site-branding {
     padding: 40px 0;
+    align-content: center;
 }
 
 .site-title {
