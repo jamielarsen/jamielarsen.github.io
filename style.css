@@ -66,13 +66,6 @@ a:hover, a:active {
 }
 
 /*--------------------------------------------------------------
-# Site branding
----------------------------------------------------------------*/
-.site-title {
-  text-align: center;
-}
-
-/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 /*
@@ -99,6 +92,40 @@ a:hover, a:active {
 --------------------------------*/
 .header-bar-email a {
     color: #afafaf;
+}
+
+/*
+# Site Branding
+--------------------------------*/
+.site-branding {
+    padding: 40px 0;
+}
+
+.site-title {
+    font-size: 72px;
+    font-family: 'arcadeclassicregular';
+}
+
+.site-title a {
+    color: #2f2f2f;
+    text-decoration: none;
+}
+
+.site-description {
+    font-size: 10px;
+    color: #9d9d9d;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 576px){
+    .site-title {
+        font-size: 112px;
+    }
+
+.site-description {
+        width: 284px;
+        margin: -10px 0 0;
+}
 }
 
 
