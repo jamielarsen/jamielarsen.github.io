@@ -97,18 +97,11 @@ a:hover, a:active {
 /*
 # Site Branding
 --------------------------------*/
-.site-branding {
-   text-align: center;
-
-}
-
-.center-branding {
-   display: inline-block;
-}
 
 .site-title {
     font-size: 72px;
     font-family: 'arcadeclassicregular';
+    text-align: center;
 }
 
 .site-title a {
@@ -121,6 +114,7 @@ a:hover, a:active {
     letter-spacing: 0.26rem;
     color: #9d9d9d;
     text-transform: uppercase;
+    text-align: center;
 }
 
 @media screen and (min-width: 576px){
