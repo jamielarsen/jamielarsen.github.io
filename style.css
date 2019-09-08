@@ -98,9 +98,12 @@ a:hover, a:active {
 # Site Branding
 --------------------------------*/
 .site-branding {
-    padding: 40px 0;
-    align: center;
+   text-align: center;
 
+}
+
+.center-branding {
+   display: inline-block;
 }
 
 .site-title {
