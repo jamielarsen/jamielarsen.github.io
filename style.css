@@ -338,11 +338,6 @@ a:hover, a:active {
   text-align: center;
 }
 
-.about-page {
-  margin-top: 42px;
-  margin-bottom: 20px;
-}
-
 @media screen and (min-width: 576px) {
   .page-header h1 {
     font-size: 66px;
