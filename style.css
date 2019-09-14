@@ -323,24 +323,24 @@ a:hover, a:active {
 # Page Header
 --------------------------------------------------------------*/
 .page-header {
-  position: relative;
-  height: 385px;
-  margin-top: 40px;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.page-header h1 {
   display: none;
 }
 
+.page-header h1 {
+  font-size: 66px;
+  color: #fff;
+  text-align: center;
+}
+
 @media screen and (min-width: 576px) {
-  .page-header h1 {
-    font-size: 66px;
-    color: #fff;
-    text-align: center;
+  .page-header {
+    position: relative;
+    height: 385px;
+    margin-top: 40px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   /*--------------------------------------------------------------
