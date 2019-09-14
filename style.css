@@ -194,7 +194,7 @@ a:hover, a:active {
 # Homepage
 --------------------------------------------------------------*/
 .single-page {
-  padding-top: 165px;
+  padding-top: 20px;
   padding-bottom: 100px;
   padding-left: 20px;
 }
@@ -294,6 +294,12 @@ a:hover, a:active {
     line-height: 1;
     background: #2f2f2f;
   }
+
+  .single-page {
+    padding-top: 165px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -323,24 +329,31 @@ a:hover, a:active {
 # Page Header
 --------------------------------------------------------------*/
 .page-header {
-  display: none;
+  position: relative;
+  height: 385px;
+  margin-top: 40px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .page-header h1 {
-  font-size: 66px;
+  font-size: 40px;
   color: #fff;
   text-align: center;
 }
 
+.about-page {
+  margin-top: 42px;
+  margin-bottom: 20px;
+}
+
 @media screen and (min-width: 576px) {
-  .page-header {
-    position: relative;
-    height: 385px;
-    margin-top: 40px;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+  .page-header h1 {
+    font-size: 66px;
+    color: #fff;
+    text-align: center;
   }
 
   /*--------------------------------------------------------------
