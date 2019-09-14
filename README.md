@@ -1,6 +1,4 @@
 # jamielarsen.github.io
 Personal blog website
 
----
-permalink: /index.html
----
+This project is my video game review / personal blog site. All reviews which are featured on this website can also be found at my blogspot. 
