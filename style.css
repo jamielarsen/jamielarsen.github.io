@@ -333,9 +333,7 @@ a:hover, a:active {
 }
 
 .page-header h1 {
-  font-size: 40px;
-  color: #fff;
-  text-align: center;
+  display: none;
 }
 
 @media screen and (min-width: 576px) {
